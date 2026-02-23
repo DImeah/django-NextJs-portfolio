@@ -1,22 +1,25 @@
-async function getProjects() {
-  const res = await fetch('http://localhost:8000/api/projects/', {
-    next: { revalidate: 60 }, // ISR — revalidate every 60s
-  });
-  return res.json();
-}
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import Blog from "@/components/Blog";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
-export default async function Home() {
-  const projects = await getProjects();
-
+export default function Home() {
   return (
-    <main>
-      <h1>My Portfolio</h1>
-      {projects.map((p: any) => (
-        <div key={p.id}>
-          <h2>{p.title}</h2>
-          <p>{p.description}</p>
-        </div>
-      ))}
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Skills />
+        <Blog />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
 }
