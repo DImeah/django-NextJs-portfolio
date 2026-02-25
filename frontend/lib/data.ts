@@ -3,26 +3,26 @@
 // ============================================================
 
 export const personal = {
-  name: "Imeah Dornu",
+  name: "Dornu Imeah",
   initials: "DI",
   tagline:
     "Full-stack developer building clean, fast, and thoughtful digital products. I care about the details that others skip.",
-  location: "San Francisco",
+  location: "Abuja, Nigeria",
   availability: "Available for work",
   email: "hello@yourname.dev",
-  github: "https://github.com/yourname",
-  linkedin: "https://linkedin.com/in/yourname",
-  twitter: "https://twitter.com/yourname",
+  github: "https://github.com/DImeah",
+  linkedin: "https://www.linkedin.com/in/dornubari-imeah-8a9928ab/",
+  twitter: "https://x.com/ImeahD",
   bio: [
-    "Hi — I'm <strong>Your Name</strong>, a developer with a passion for building things that are both functional and beautiful. I believe great software is invisible — it just works.",
-    "I've spent the last <strong>5+ years</strong> working across the stack: from pixel-perfect UIs to resilient backend systems. I care about performance, accessibility, and the people who actually use what I build.",
+    "Hi — I'm <strong>Dornu Imeah</strong>, a developer with a passion for building things that are both functional and beautiful. I believe great software is invisible — it just works.",
+    "I've spent the last <strong>3+ years</strong> working across the stack: from pixel-perfect UIs to resilient backend systems. I care about performance, accessibility ad the people who actually use what I build.",
     "When I'm not coding, I'm writing about technology, contributing to open source, or exploring trails somewhere remote.",
   ],
 };
 
 export const stats = [
-  { number: "42+", label: "Projects shipped" },
-  { number: "5yrs", label: "Industry experience" },
+  { number: "4+", label: "Projects shipped" },
+  { number: "3+", label: "Years of coding experience" },
   { number: "12k", label: "GitHub contributions" },
 ];
 
@@ -73,19 +73,19 @@ export const skills = [
   {
     category: "Frontend",
     items: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 90 },
+      { name: "React / Next.js", level: 80 },
+      { name: "TypeScript", level: 80 },
       { name: "CSS / Tailwind", level: 85 },
-      { name: "WebGL / Three.js", level: 60 },
+      { name: "Three.js", level: 60 },
     ],
   },
   {
     category: "Backend",
     items: [
       { name: "Node.js", level: 90 },
-      { name: "Go", level: 75 },
+      { name: "Python", level: 75 },
       { name: "PostgreSQL", level: 85 },
-      { name: "Redis", level: 80 },
+      { name: "Java", level: 80 },
     ],
   },
   {
